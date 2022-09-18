@@ -7,7 +7,7 @@ path = "Iris/Iris.csv"
 df=pd.read_csv(path)
 print(df.head)
 
-train, test = train_test_split(df, test_size=0.2)
+train, test = train_test_split(df, test_size=0.2, random_state=0)
 
 #filename = "Banknote.csv"
 
@@ -15,7 +15,7 @@ train, test = train_test_split(df, test_size=0.2)
 
 #data = np.genfromtxt(filename, delimiter=",")
 
-np.random.seed(0)
+#np.random.seed(0)
 #np.random.shuffle(data)
 
 # whenever the last column is < 0.5 (ie 0), change it to 0
@@ -23,5 +23,5 @@ np.random.seed(0)
 
 #train = data[:1000]
 #test = data[1000:]
-np.savetxt('Iris/Train.csv', train, delimiter=" ", header="x0 x1 x2 x3 y", fmt='%s')
-np.savetxt('Iris/Test.csv', test, delimiter=" ", header="x0 x1 x2 x3 y", fmt='%s')
+np.savetxt('Iris/Train.csv', train, delimiter=",", header=",x0,x1,x2,x3,y", fmt='%s')
+np.savetxt('Iris/Test.csv', test, delimiter=",", header=",x0,x1,x2,x3,y", fmt='%s')
