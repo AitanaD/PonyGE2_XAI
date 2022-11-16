@@ -51,9 +51,12 @@ class if_else_classifier(supervised_learning):
         # we created n, n_is, n_os for convenience, but also the
         # variables with full names hanging on self since grammar.py
         # may need them for GE_RANGE:dataset_n_vars etc.
-        n = self.n_vars = int(params['EXTRA_PARAMETERS'][0])
-        n_is = self.n_is = int(params['EXTRA_PARAMETERS'][1])
-        n_os = self.n_os = int(params['EXTRA_PARAMETERS'][2])
+        # n = self.n_vars = int(params['EXTRA_PARAMETERS'][0])
+        n = self.n_vars = 4
+        #n_is = self.n_is = int(params['EXTRA_PARAMETERS'][1])
+        n_is = self.n_is = 31
+       # n_os = self.n_os = int(params['EXTRA_PARAMETERS'][2])
+        n_os = self.n_os = 3
 
         # Set error metric if it's not set already.
         if params['ERROR_METRIC'] is None:
