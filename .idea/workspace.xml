@@ -5,100 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9e94051-f383-423b-9ca8-8b019fd7850a" name="Changes" comment="Change rf training. Now the data split is a 10-fold and the predictions.csv is the patterns of train + predictions of rf, instead of the real label">
-      <change afterPath="$PROJECT_DIR$/G3Ptraining.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/Diabetes/diabetes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/blood-transfusion.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/climate-model.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ilpd.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/ozone-level-8hr.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PonyGE2_XAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PonyGE2_XAI.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Black-box_models/random_forest.py" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/random_forest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Banknote/Test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Banknote/Train.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Dow/Test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Dow/Train.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/DowNorm/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/DowNorm/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Housing/Test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Housing/Train.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/HousingNorm/Test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/HousingNorm/Train.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Iris/Iris.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Iris/Iris.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Iris/Test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Iris/Test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Iris/Train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Iris/Train.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Keijzer6/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Keijzer6/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Paige1/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Paige1/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Tower/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Tower/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/TowerNorm/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/TowerNorm/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Vladislavleva4/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Vladislavleva4/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/make_Banknote.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/process_Iris.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/process_banknote.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/process_housing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/process_tower.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Checksum/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Checksum/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Collatz Numbers/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Collatz Numbers/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Compare String Lengths/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Compare String Lengths/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Count Odds/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Count Odds/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Digits/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Digits/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Double Letters/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Double Letters/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Even Squares/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Even Squares/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/For Loop Index/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/For Loop Index/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Grade/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Grade/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Last Index of Zero/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Last Index of Zero/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Median/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Median/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Mirror Image/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Mirror Image/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Negative To Zero/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Negative To Zero/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Number IO/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Number IO/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Pig Latin/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Pig Latin/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Replace Space with Newline/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Replace Space with Newline/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Scrabble Score/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Scrabble Score/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Small Or Large/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Small Or Large/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Smallest/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Smallest/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/String Differences/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/String Differences/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/String Lengths Backwards/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/String Lengths Backwards/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Sum of Squares/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Sum of Squares/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Super Anagrams/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Super Anagrams/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Syllables/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Syllables/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Vector Average/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Vector Average/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Vectors Summed/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Vectors Summed/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Wallis Pi/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Wallis Pi/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Word Stats/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/Word Stats/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/X-Word Lines/Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/progsys/X-Word Lines/Train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/towerData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grammars/supervised_learning/if_else_classifier.pybnf" beforeDir="false" afterPath="$PROJECT_DIR$/grammars/supervised_learning/if_else_classifier.pybnf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/G3Ptraining.py" beforeDir="false" afterPath="$PROJECT_DIR$/G3Ptraining.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/DRF_model_python_1663497588709_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/random_forest.py" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/random_forest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Diabetes/diabetes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/diabetes.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Iris/Iris.csv" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Iris/Test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Iris/Train.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/parameters/classification.txt" beforeDir="false" afterPath="$PROJECT_DIR$/parameters/classification.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fitness/supervised_learning/if_else_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fitness/supervised_learning/if_else_classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fitness/supervised_learning/supervised_learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fitness/supervised_learning/supervised_learning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/representation/grammar.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/representation/grammar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/GE_LR_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/GE_LR_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stats/stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/stats/stats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilities/fitness/error_metric.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/fitness/error_metric.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilities/fitness/get_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/fitness/get_data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,20 +62,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/G3Ptraining.py" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/datasets/preprocessing_diabetes.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/datasets" />
       <recent name="$PROJECT_DIR$/src/algorithm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/datasets/Diabetes" />
       <recent name="$PROJECT_DIR$/datasets" />
+      <recent name="$PROJECT_DIR$/datasets/Diabetes" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.G3Ptraining">
-    <configuration name="G3Ptraining" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ponyge">
+    <configuration name="G3Ptraining" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PonyGE2_XAI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -161,6 +90,48 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/G3Ptraining.py" />
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Preprocessing" type="PythonConfigurationType" factoryName="Python">
+      <module name="PonyGE2_XAI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datasets" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datasets/preprocessing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ponyge" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="PonyGE2_XAI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ponyge.py" />
+      <option name="PARAMETERS" value="--parameters classification.txt" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -211,15 +182,12 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.G3Ptraining" />
+      <item itemvalue="Python.Preprocessing" />
+      <item itemvalue="Python.ponyge" />
       <item itemvalue="Python.process_Iris.py" />
       <item itemvalue="Python.random_forest.py" />
-      <item itemvalue="Python.G3Ptraining" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.G3Ptraining" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -244,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663497907119</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Change rf training. Now the data split is a 10-fold and the predictions.csv is the patterns of train + predictions of rf, instead of the real label">
+      <created>1668621217843</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668621217843</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,15 +242,55 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/ponyge.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/Lectura del CSV/get_data.py</url>
+          <line>137</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/datasets/process_Iris.py</url>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/Lectura del CSV/get_data.py</url>
+          <line>131</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file:///usr/lib/python3.8/posixpath.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/stats/stats.py</url>
+          <line>123</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/stats/stats.py</url>
+          <line>118</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/stats/stats.py</url>
+          <line>325</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/stats/stats.py</url>
+          <line>390</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="sklearn_f1_score([str(i) for i in y], yhat, average=&quot;weighted&quot;)" language="Python" />
+        <watch expression="np.array([str(i) for i in y])" language="Python" />
+        <watch expression="yhat" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

@@ -122,7 +122,7 @@ def f1_score(y, yhat):
         # undefined, and sklearn will give a runtime warning and
         # return 0. We can ignore that warning and happily return 0.
         warnings.simplefilter("ignore")
-        return sklearn_f1_score(y, yhat, average="weighted")
+        return sklearn_f1_score([str(i) for i in y], yhat, average="weighted")
 
 
 # Set maximise attribute for f1_score error metric.

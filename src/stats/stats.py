@@ -3,7 +3,7 @@ from sys import stdout
 from time import time
 
 import numpy as np
-from algorithm.parameters import params
+from  algorithm.parameters import params
 from utilities.algorithm.NSGA2 import compute_pareto_metrics, compute_pareto_metrics_v2
 from utilities.algorithm.state import create_state
 from utilities.stats import trackers
@@ -324,6 +324,7 @@ def get_soo_stats_v2(individuals, end):
                 yhat_test = eval(trackers.best_ever.phenotype)
             except:
                 yhat_test = None
+                raise
 
         if 'LISTENERS' in params:
             for i in eval(params['LISTENERS']):
