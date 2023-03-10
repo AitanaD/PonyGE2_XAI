@@ -4,29 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9e94051-f383-423b-9ca8-8b019fd7850a" name="Changes" comment="Change rf training. Now the data split is a 10-fold and the predictions.csv is the patterns of train + predictions of rf, instead of the real label">
-      <change afterPath="$PROJECT_DIR$/datasets/blood-transfusion.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/climate-model.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/ilpd.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/ozone-level-8hr.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PonyGE2_XAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PonyGE2_XAI.iml" afterDir="false" />
+    <list default="true" id="a9e94051-f383-423b-9ca8-8b019fd7850a" name="Changes" comment="Now the data is normalizate as preprocessing and a function create a file and save in the mean and std of every fold's f1">
+      <change afterPath="$PROJECT_DIR$/results_files/results_file" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/G3Ptraining.py" beforeDir="false" afterPath="$PROJECT_DIR$/G3Ptraining.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/DRF_model_python_1663497588709_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred0.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred4.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred5.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred6.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred6.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred7.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred7.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred8.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred8.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred9.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred9.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/random_forest.py" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/random_forest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Diabetes/diabetes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/diabetes.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Iris/Iris.csv" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Iris/Test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Iris/Train.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parameters/classification.txt" beforeDir="false" afterPath="$PROJECT_DIR$/parameters/classification.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fitness/supervised_learning/if_else_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fitness/supervised_learning/if_else_classifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fitness/supervised_learning/supervised_learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fitness/supervised_learning/supervised_learning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/representation/grammar.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/representation/grammar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/GE_LR_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/GE_LR_parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stats/stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/stats/stats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utilities/fitness/error_metric.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/fitness/error_metric.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utilities/fitness/get_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/fitness/get_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test0.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test4.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test5.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test6.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test6.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test7.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test7.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test8.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test8.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test9.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test9.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +52,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="7d756f0c-7644-4be1-a2bd-81a396cbdcba" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -75,7 +80,7 @@
       <recent name="$PROJECT_DIR$/datasets/Diabetes" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ponyge">
+  <component name="RunManager" selected="Python.seamoth">
     <configuration name="G3Ptraining" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PonyGE2_XAI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,13 +186,40 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="seamoth" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PonyGE2_XAI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datasets/Black_box_models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datasets/Black_box_models/seamoth.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.G3Ptraining" />
       <item itemvalue="Python.Preprocessing" />
       <item itemvalue="Python.ponyge" />
       <item itemvalue="Python.process_Iris.py" />
       <item itemvalue="Python.random_forest.py" />
+      <item itemvalue="Python.seamoth" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.seamoth" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -219,7 +251,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668621217843</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Now the data is normalizate as preprocessing and a function create a file and save in the mean and std of every fold's f1">
+      <created>1677257387079</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677257387079</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Now the data is normalizate as preprocessing and a function create a file and save in the mean and std of every fold's f1">
+      <created>1677257453315</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677257453315</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,7 +282,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Random Forest model implementation" />
     <MESSAGE value="Change rf training. Now the data split is a 10-fold and the predictions.csv is the patterns of train + predictions of rf, instead of the real label" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change rf training. Now the data split is a 10-fold and the predictions.csv is the patterns of train + predictions of rf, instead of the real label" />
+    <MESSAGE value="Now the data is normalizate as preprocessing and a function create a file and save in the mean and std of every fold's f1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Now the data is normalizate as preprocessing and a function create a file and save in the mean and std of every fold's f1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

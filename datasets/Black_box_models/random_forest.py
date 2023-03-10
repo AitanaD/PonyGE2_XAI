@@ -5,7 +5,7 @@ from h2o.estimators import H2ORandomForestEstimator
 from sklearn.metrics import accuracy_score, f1_score
 
 
-def rf_train(train_patterns, train_labels, test_labels,  features, label, n_splits, bb_f1:list):
+def rf_train(train_patterns, train_labels, test_patterns,  test_labels,  features, label, n_splits, bb_f1:list):
     h2o.init()  # Model object
 
     # Preprocess train
@@ -18,6 +18,11 @@ def rf_train(train_patterns, train_labels, test_labels,  features, label, n_spli
     h2o_train_df = h2o_train_df.cbind(h2o.H2OFrame(train_labels))
     #Add header
     h2o_train_df.col_names = features+[label]
+
+    # Repeat with test data
+    h2o_test_df = h2o.H2OFrame(test_patterns)
+    h2o_test_df = h2o_test_df.cbind(h2o.H2OFrame(test_labels))
+    h2o_test_df.col_names = features + [label]
 
     # Define model
     rf = H2ORandomForestEstimator(ntrees=500)
@@ -44,7 +49,17 @@ def rf_train(train_patterns, train_labels, test_labels,  features, label, n_spli
     file = "datasets/Black_box_models/prediction/rf_pred"+str(n_splits)+".csv"
     df = pd.read_csv(file)
     array = df.to_numpy()
-    bb_f1.append( f1_score(test_labels, array[ : ,-1]))
+    print("Array ", array.shape)
+
+    # Generate predictions on a test set:
+    pred_test = rf.predict(test_data=h2o_test_df) >= 0.5
+    pred_test = pred_test.as_data_frame().to_numpy()
+
+    print("Test labels ", test_labels.shape)
+    print("Pred test shape ", pred_test.shape)
+
+
+    bb_f1.append( f1_score(test_labels, pred_test[ : ,-1]))
     print("F1 Score test;", bb_f1[-1])
 
     # Save the model
