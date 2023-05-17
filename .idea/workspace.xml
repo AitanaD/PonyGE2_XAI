@@ -4,91 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9e94051-f383-423b-9ca8-8b019fd7850a" name="Changes" comment="Plot the median and std f1 score in each dataset for each model">
-      <change afterPath="$PROJECT_DIR$/datasets/blackbox_process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/G3Ptraining.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/G3Ptraining.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lectura del CSV/supervised_learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lectura del CSV/supervised_learning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred0.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred4.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred5.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred6.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred7.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred8.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/prediction/rf_pred9.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/random_forest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test0.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test3.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test4.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test5.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test5.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test6.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test6.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test7.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test7.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test8.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test8.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test9.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/Black_box_models/test_folds/test9.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/blood-transfusion.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/originales/blood-transfusion.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/climate-model.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/originales/climate-model.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/diabetes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/originales/diabetes.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/ilpd.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/originales/ilpd.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/new_blood-transfusion.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/procesados/new_blood-transfusion.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/new_climate-model.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/procesados/new_climate-model.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/new_diabetes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/procesados/new_diabetes.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/new_ilpd.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/procesados/new_ilpd.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/new_ozone-level-8hr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/procesados/new_ozone-level-8hr.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/ozone-level-8hr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/originales/ozone-level-8hr.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parameters/classification.txt" beforeDir="false" afterPath="$PROJECT_DIR$/parameters/classification.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_115507_539645_2499_539645/parameters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_115544_335874_2542_335874/best.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_115544_335874_2542_335874/best_fitness.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_115544_335874_2542_335874/parameters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_115544_335874_2542_335874/stats.tsv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_121136_180353_2779_180353/best.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_121136_180353_2779_180353/best_fitness.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_121136_180353_2779_180353/parameters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_121136_180353_2779_180353/stats.tsv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_121508_795340_2851_795340/parameters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_122010_256013_3030_256013/parameters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_122941_510656_3124_510656/parameters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_123057_816169_3180_816169/parameters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_123651_521080_3416_521080/parameters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_124118_707251_3660_707251/best.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_124118_707251_3660_707251/best_fitness.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_124118_707251_3660_707251/parameters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_124118_707251_3660_707251/stats.tsv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_124521_403515_3722_403515/parameters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_124521_403515_3722_403515/stats.tsv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_124634_259316_3783_259316/best_fitness.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_124634_259316_3783_259316/parameters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_124634_259316_3783_259316/stats.tsv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_125110_563102_4081_563102/best.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_125110_563102_4081_563102/best_fitness.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_125110_563102_4081_563102/parameters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_125110_563102_4081_563102/stats.tsv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_125147_173704_4125_173704/best_fitness.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_125147_173704_4125_173704/parameters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_125147_173704_4125_173704/stats.tsv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_125341_340241_4444_340241/best.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_125341_340241_4444_340241/best_fitness.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_125341_340241_4444_340241/parameters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/hita-Lenovo-ideapad-330-15ICH_23_2_3_125341_340241_4444_340241/stats.tsv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results_files/results_file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/parameters.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/parameters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fitness/evaluation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fitness/evaluation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fitness/supervised_learning/supervised_learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fitness/supervised_learning/supervised_learning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ponyge.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ponyge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stats/stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/stats/stats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utilities/fitness/error_metric.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/fitness/error_metric.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utilities/fitness/get_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/fitness/get_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utilities/stats/clean_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/stats/clean_stats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utilities/stats/trackers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utilities/stats/trackers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
-    </list>
+    <list default="true" id="a9e94051-f383-423b-9ca8-8b019fd7850a" name="Changes" comment="Implemented GB y DL models and new execution option for no pre-processed data using PonyGE called &quot;PonyOriginal&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -358,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678449614489</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implemented GB y DL models and new execution option for no pre-processed data using PonyGE called &quot;PonyOriginal&quot;">
+      <created>1684336979261</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684336979261</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -377,7 +300,8 @@
     <MESSAGE value="Change rf training. Now the data split is a 10-fold and the predictions.csv is the patterns of train + predictions of rf, instead of the real label" />
     <MESSAGE value="Now the data is normalizate as preprocessing and a function create a file and save in the mean and std of every fold's f1" />
     <MESSAGE value="Plot the median and std f1 score in each dataset for each model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Plot the median and std f1 score in each dataset for each model" />
+    <MESSAGE value="Implemented GB y DL models and new execution option for no pre-processed data using PonyGE called &quot;PonyOriginal&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented GB y DL models and new execution option for no pre-processed data using PonyGE called &quot;PonyOriginal&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

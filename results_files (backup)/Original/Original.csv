@@ -1,0 +1,6 @@
+Dataset,Mean F1 BB train,Var F1 BB train,Mean F1 BB test,Var F1 BB test,Mean F1 train,Var F1 train,Mean F1 test,Var F1 test
+blood-transfusion,0.792,0.001,0.119,0.039,0.847,0.0,0.699,0.02
+climate-model,1.0,0.0,0.957,0.0,0.901,0.0,0.867,0.002
+diabetes,1.0,0.0,0.63,0.01,0.743,0.0,0.732,0.003
+ilpd,1.0,0.0,0.334,0.02,0.713,0.0,0.679,0.009
+ozone-level-8hr,1.0,0.0,0.172,0.017,0.921,0.0,0.901,0.004
