@@ -2,8 +2,8 @@ CACHE:                  True
 CODON_SIZE:             100000
 CROSSOVER:              variable_onepoint
 CROSSOVER_PROBABILITY:  0.8
-DATASET_TRAIN:          Black_box_models/prediction/rf_pred9.csv
-DATASET_TEST:           Black_box_models/test_folds/test9.csv
+DATASET_TRAIN:          Black_box_models/prediction_train_noprocess/bb_pred9.csv
+DATASET_TEST:           Black_box_models/prediction_test_noprocess/bb_pred9.csv
 DEBUG:                  False
 ERROR_METRIC:           f1_score
 GENERATIONS:            50

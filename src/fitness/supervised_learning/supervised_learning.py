@@ -72,7 +72,7 @@ class supervised_learning(base_ff):
 that your grammar uses the `x[:, 0]` style, not `x[0]`. Please see change
 at https://github.com/PonyGE/PonyGE2/issues/130."""
 
-        print('training_exp:', self.training_exp)
+        """print('training_exp:', self.training_exp)"""
 
         if params['OPTIMIZE_CONSTANTS']:
             # if we are training, then optimize the constants by
@@ -123,7 +123,6 @@ at https://github.com/PonyGE/PonyGE2/issues/130."""
 
             # let's always call the error function with the true
             # values first, the estimate second
-            print("parametros:", params)
             return params['ERROR_METRIC'](y, yhat)
 
     def num_of_different_values(self, i):

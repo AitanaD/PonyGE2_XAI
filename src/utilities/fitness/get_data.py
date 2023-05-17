@@ -234,14 +234,14 @@ def get_data(train, test):
 
     # 1. Read training dataset
     # Get the path to the training dataset.
-    train_set = path.join("..", "datasets", train)
+    train_set = path.join("datasets", train)
     training_in, training_out, metadata = read_dataset(train_set)
 
     # 2. Read test dataset, if any
     test_in, test_out = None, None
-    if test and isinstance(test, str) and path.isfile(path.join("..", "datasets", test)):
+    if test and isinstance(test, str) and path.isfile(path.join("datasets", test)):
         # Get the path to the testing dataset.
-        test_set = path.join("..", "datasets", test)
+        test_set = path.join("datasets", test)
         test_in, test_out, metadata_test = read_dataset(test_set)
     elif test:
         try:  # Perhaps, test is the string '1', or any other number, so it should be transformed

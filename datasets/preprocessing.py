@@ -2,7 +2,7 @@ import pandas as pd
 
 from sklearn.preprocessing import normalize
 
-datasets = ["blood-transfusion.csv", "climate-model.csv", "ilpd.csv", "ozone-level-8hr.csv"]
+datasets = ["splice.csv", "balance-scale.csv", "cmc.csv", "vehicle.csv"]
 
 for d in datasets:
     print("Dataset", d)
@@ -10,14 +10,19 @@ for d in datasets:
     df = pd.read_csv(d)
     y = df[df.columns[-1]]
 
+    # Transform categorical values
+    dummy_df = pd.get_dummies(df.drop(df.columns[-1], axis=1))
+
     #Save header values
-    features = list(df.drop(df.columns[-1], axis=1))
+    features = list(dummy_df)
     print(features)
 
     #Normalize data by columns
-    new_df = normalize(df.drop(df.columns[-1], axis=1))
+    new_df = normalize(dummy_df)
     new_df = pd.DataFrame(new_df, columns=features)
     new_df[df.columns[-1]] = y
+
+
 
     print(df.head())
     print(new_df.head())

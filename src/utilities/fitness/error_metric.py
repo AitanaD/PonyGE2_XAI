@@ -56,7 +56,7 @@ def hinge(y, yhat):
     """
     Hinge loss is a suitable loss function for classification.  Here y is
     the true values (-1 and 1) and yhat is the "raw" output of the individual,
-    ie a real value. The classifier will use sign(yhat) as its prediction.
+    ie a real value. The classifier will use sign(yhat) as its prediction_train.
 
     :param y: The expected input (i.e. from dataset).
     :param yhat: The given input (i.e. from phenotype).
@@ -109,7 +109,7 @@ def f1_score(y, yhat):
         y[y == -1] = 0
 
     # We binarize with a threshold, so this cannot be used for multi-class
-    assert len(y_vals) == 2
+    assert len(y_vals) <= 2
 
     # convert real values to boolean {0, 1} with a zero threshold
     # Only if they are numbers (not string like 'Yes'/'No' o 'Positive'/'Negative'

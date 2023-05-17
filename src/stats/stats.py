@@ -7,6 +7,7 @@ from  algorithm.parameters import params
 from utilities.algorithm.NSGA2 import compute_pareto_metrics, compute_pareto_metrics_v2
 from utilities.algorithm.state import create_state
 from utilities.stats import trackers
+from utilities.stats import variables
 from utilities.stats.file_io import save_best_ind_to_file, \
     save_first_front_to_file, save_stats_headers, save_stats_to_file, save_values_to_file
 from utilities.stats.save_plots import save_pareto_fitness_plot, \
@@ -321,6 +322,7 @@ def get_soo_stats_v2(individuals, end):
                 yhat_train = None
             x = x_test
             try:
+                """print(trackers.best_ever.phenotype)"""
                 yhat_test = eval(trackers.best_ever.phenotype)
             except:
                 yhat_test = None
@@ -653,6 +655,9 @@ def print_final_stats():
         print("\n\nBest:\n  Training fitness:\t",
               trackers.best_ever.training_fitness)
         print("  Test fitness:\t\t", trackers.best_ever.test_fitness)
+        variables.train_pony_f1.append(trackers.best_ever.training_fitness)
+        variables.test_pony_f1.append(trackers.best_ever.test_fitness)
+
     else:
         print("\n\nBest:\n  Fitness:\t", trackers.best_ever.fitness)
 

@@ -102,7 +102,7 @@ at https://github.com/PonyGE/PonyGE2/issues/130."""
                 return params['ERROR_METRIC'](y, yhat)
 
         else:
-            # phenotype won't refer to C
+            # phenotype 1't refer to C
             try: # I do not why, but in some cases, very infrequently, I had an invalid phenotype. In particular, in one case it tried to test the condition (x['<feature_name>%] > 1.7), which misses a quote
                 yhat = eval(ind.phenotype)
             except:

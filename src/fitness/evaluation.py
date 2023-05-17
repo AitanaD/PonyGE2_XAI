@@ -129,6 +129,6 @@ def eval_or_append(ind, results, pool):
             if (isinstance(ind.fitness, list) and not
             any([np.isnan(i) for i in ind.fitness])) or \
                     (not isinstance(ind.fitness, list) and not
-                    np.isnan(ind.fitness)):
+                    ind.fitness is None):
                 # All fitnesses are valid.
                 cache[ind.phenotype] = ind.fitness
